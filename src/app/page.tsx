@@ -1,14 +1,28 @@
-import { ThemeSwitcher } from "@/components/ThemeSwitcher";
-import ParticlesBackground from "@/components/ParticlesBackground";
+import ParticlesBackground from '../components/ParticlesBackground';
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen p-10">
+    <main className="pt-24">
       <ParticlesBackground />
-      <div className="relative z-10">
-        <ThemeSwitcher />
-        <h1 className="text-4xl font-bold mt-6">Testando Tailwind</h1>
-      </div>
+      <section id="sobre" className="min-h-screen px-6 py-12">
+        <h2 className="text-2xl font-bold">Sobre mim</h2>
+        {/* ... */}
+      </section>
+
+      <section id="projetos" className="min-h-screen px-6 py-12">
+        <h2 className="text-2xl font-bold">Projetos</h2>
+        {/* ... */}
+      </section>
+
+      <section id="conhecimentos" className="min-h-screen px-6 py-12">
+        <h2 className="text-2xl font-bold">Conhecimentos</h2>
+        {/* ... */}
+      </section>
+
+      <section id="contato" className="min-h-screen px-6 py-12">
+        <h2 className="text-2xl font-bold">Contato</h2>
+        {/* ... */}
+      </section>
     </main>
   );
 }

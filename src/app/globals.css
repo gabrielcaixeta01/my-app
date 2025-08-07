@@ -1,7 +1,6 @@
 @import "tailwindcss/preflight";
 @import "tailwindcss/utilities";
 
-/* Estilização básica para o body */
 body {
   @apply font-sans antialiased;
 }
